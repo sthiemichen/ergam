@@ -1,0 +1,9 @@
+# ergam
+The R package allows to fit an Exponential Random Graph Additive Model (ERGAM) 
+with non-parametric smooth components to subsets of a network. 
+The subsets are chosen based on a symmetric Latin square.
+
+For details on the methodology see:
+Thiemichen, S. and Kauermann, G. (2016). Stable exponential random graph models with
+non-parametric components for large dense networks. arXiv preprint arXiv:1604.04732.
+http://arxiv.org/abs/1604.04732
