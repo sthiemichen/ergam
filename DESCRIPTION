@@ -1,0 +1,34 @@
+Package: ergam
+Type: Package
+Title: Fit Non-parametric Exponential Random Graph Models
+Version: 0.1.0
+Date: 2016-05-09
+Author@R: person("Stephanie", "Thiemichen",
+                 email = "stephanie.thiemichen@stat.uni-muenchen.de",
+                 role = "cre")
+Description: The package allows to fit an Exponential Random Graph Additive
+    Model (ERGAM) with non-parametric smooth components to subsets of the whole
+    network. The subsets are chosen based on a symmetric Latin square.
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Depends:
+    R (>= 3.2.0),
+    network (>= 1.13.0)
+Imports:
+    network (>= 1.13.0),
+    quadprog (>= 1.5-5)
+Suggests:
+    fda (>= 2.4.4)
+Collate:
+    'build_basis.R'
+    'data.R'
+    'ergam_methods.R'
+    'fit_mod.R'
+    'generate_dataset.R'
+    'prepare_nw_data.R'
+    'ergam.R'
+    'plots.R'
+    'simpleLS.R'
+    'visualize_basis.R'
+    'whole_net_to_data.R'
